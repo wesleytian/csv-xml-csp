@@ -31,15 +31,17 @@ There is a sample csv file that includes simple CSV files that can be converted 
 
 Note: a empty output.xml is given in the repo., so you can skip some of the steps
 
-# NOTE
+## NOTE
 Remember to clear the output.xml before running a new csv file
 
 ## MACINTOSH
 ### IF DO NOT HAVE OUTPUT.XML
 Open terminal in folder
 Type 
-: chmod +x makemac.sh
-: ./makemac.sh
+~~~~
+chmod +x makemac.sh
+./makemac.sh
+~~~~
 
 ### IF USING INCLUDED OUTPUT.XML
 #### CHANGE FILE NAME
@@ -47,15 +49,18 @@ Open parser.py
 in the 7th and 8th line, change the filename to the filename that you want to run the parser on.
 
 ## RUN
+~~~~
 python3 parser.py
+~~~~
 
 
 ## WINDOWS
 
 ### IF DO NOT HAVE OUTPUT.XML
 Open prompt
-: make.bat
-(run the make.bat file)
+~~~~
+make
+~~~~
 OR just create a file named output.xml
 
 ### IF USING INCLUDED OUTPUT.XML
@@ -64,6 +69,7 @@ Then Open parser.py
 in the 7th and 8th line, change the filename to the filename that you want to run the parser on.
 
 ## RUN
-: python3 parser.py
-(not sure if that’s how you run it on windows)
+~~~~
+c:\python23\python3 parser.py.
+~~~~
 
